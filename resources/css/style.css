@@ -154,8 +154,18 @@ h6 {
     margin-top: 70px;
     font-size: 24px;
   }
-  
-  #hero .btn-get-started {
+
+  .hero-img {
+    position: relative;
+  }
+
+  .hero-img-absolute{
+    position:absolute;
+    top:0%;
+    right :10%
+  }
+
+  .btn-get-left{
     font-family: "Jost", sans-serif;
     font-weight: 600;
     font-size: 16px;
@@ -166,6 +176,24 @@ h6 {
     margin-left: 6px;
     transition: 0.5s;
     color: #fff;
+    border-color: #EA0000;
+    border-radius: 5px 5px 30px 5px;
+    background: red;
+  }
+
+  .btn-get-right{
+    font-family: "Jost", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 28px 11px 28px;
+    margin-top: 40px;
+    margin-left: 6px;
+    transition: 0.5s;
+    color: #fff;
+    border-color: #EA0000;
+    border-radius: 5px 5px 5px 30px;
     background: red;
   }
   
@@ -286,6 +314,7 @@ h6 {
     color: #fff;
     border-radius: 10px;
     border: #EA0000;
+    border-radius: 25px 5px 25px 5px;
    
 }
 
@@ -315,10 +344,10 @@ h6 {
     align-items: center;
     justify-content: center;
     background-color: red;
+    border-radius: 5px 5px 25px 5px;
     height: 60px;
     width: 50%;
     color: #fff;
-    border-radius: 10px;
     margin-top: 20px;
 }
 
@@ -351,7 +380,7 @@ h6 {
     position: relative;
     width : 90%;
     height: 100%;
-    background-color: aqua;
+    background-color: #FCC7C3;
     padding: 40px;
 }
 
@@ -369,6 +398,7 @@ h6 {
     color: #fff;
     border-radius: 10px;
     margin-top: 20px;   
+    border-radius: 5px 5px 25px 5px;
 }
 
  .cup-image {
